@@ -7,15 +7,17 @@ public class cseAddtest {
 
     cseAdd c = new cseAdd();
 
-    @Test
+    	@Test
+    	
     void addTest() {
         int result = c.add(2, 3);
-        assertEquals(5, result);
+        
+        assertEquals(5,result);
     }
 
     @Test
     void mulTest() {
-        int result = c.mul(2, 3);
+    	int result = c.mul(2, 3);
         assertEquals(6, result);
     }
 }
